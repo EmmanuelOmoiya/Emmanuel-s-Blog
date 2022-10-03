@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+.container{
+  background-image: url('../public/gorgey-pic.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 69%;
+}
+
+.pick{
+  width: 100%;
+  height: 550px;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tpc{
+  color: #ccc;
+  font-size: 80px;
+  font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-weight: bold;
+  padding: 0rem 4rem;
+}
+
+.posts{
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.post{
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.title{
+  font-size: 40px;
+  color: #101010;
+  font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.title:hover{
+  color: deepskyblue;
+}
+
+.author{
+  font-family: 'PLUS-JAKARTA';
+  LINE-HEIGHT: 1.5;
+}
+
+.tpc{
+  text-align: center;
+  align-items: center;
+}
+
+.pick{
+  text-align: center;
+  align-items: center;
+  padding-top: calc(550px / 2.5);
+}
+
+.author_cli{
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px) {
+  .tpc{
+    left: 0%;
+  }
+
+  .pick{
+    padding-top: 10rem;
+  }
+
+}
+
+@media screen and (max-width:480px) {
+  .post,
+  .posts{
+    width: 100%;
+  }
+
+  .tpc{
+    font-size: 3.6rem;
+    margin-left: -.5rem;
+    padding: 2rem;
+  }
+
+  .title{
+    font-size: 2rem;
+  }
+
+  .pick{
+    padding-top: 6rem;
+  }
+}

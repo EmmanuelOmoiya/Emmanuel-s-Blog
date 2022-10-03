@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+@font-face {
+  font-family: "Plus-Jakarta";
+  src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+.container{
+  background-image: url('../public/gorger-about-pic.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 69%;
+}
+
+.pick{
+  width: 100%;
+  height: 550px;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tpc{
+  color: #fff;
+  font-size: 60px;
+  font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-weight: bold;
+  position: absolute;
+  top: 35%;
+  left: 33%;
+}
+
+.det{
+    top: 49%;
+    left: 39%;
+    position: absolute;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.details{
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-family: 'Plus-Jakarta', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+  .tpc{
+    left: 14%;
+    top: 30%;
+  }
+
+  .det{
+    left: 24%;
+    top: 44%;
+  }
+
+  .details{
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .details{
+    width: 100%;
+    margin-top: 3.5rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .tpc{
+    margin-left: -2.9rem;
+  }
+
+  .det{
+    margin-left: -3.9rem;
+    padding: 6.9rem 2rem 0 0;
+  }
+}

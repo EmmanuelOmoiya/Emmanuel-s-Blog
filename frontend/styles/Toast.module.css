@@ -1,0 +1,30 @@
+.toast_container{
+    width: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+    font-family: 'Plus-Jakarta', sans-serif;
+    border-radius: 6px;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    animation: slideIn 0.5s ease-in ;
+    bottom: 0rem;
+    position: fixed;
+}
+
+@keyframes slideIn {
+    0%{
+        bottom: 0rem;
+        opacity: 0;
+    }
+    50%{
+        bottom: 2rem;
+        opacity: 1;
+    }
+    100%{
+        bottom: 0rem;
+        opacity: 0;
+    }
+}

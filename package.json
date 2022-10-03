@@ -1,0 +1,40 @@
+{
+  "name": "emmanuels-blog",
+  "version": "0.0.1",
+  "description": "Emmanuel Omoiya's - Software Engineer Blog",
+  "main": "index.js",
+  "scripts": {
+    "frontend-install": "cd frontend && npm install",
+    "backend-install": "cd backend && npm install",
+    "install-all-deps": "concurrently \"npm run backend-install\" \"npm run frontend-install\"",
+    "dev-frontend": "cd frontend && npm run dev",
+    "start-backend": "cd backend && npm run start",
+    "start-dev": "concurrently \"npm run dev-frontend\" \"npm run start-backend\"",
+    "frontend-build": "cd frontend && npm run build",
+    "start": "concurrently \"npm run dev-frontend\" \"npm run start-backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmanuel/Gorgey-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "Emmanuel-Omoiya",
+    "Software",
+    "Engineer",
+    "Developer",
+    "reactjs",
+    "nodejs",
+    "personal blog",
+    "file system"
+  ],
+  "author": "Emmanuel Omoiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Emmanuel/Gorgey-blog/issues"
+  },
+  "homepage": "https://github.com/Emmanuel/Gorgey-blog#readme",
+  "dependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
