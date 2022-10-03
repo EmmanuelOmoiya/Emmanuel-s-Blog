@@ -25,7 +25,7 @@ const Post = () => {
   return (
     <div className={styles.post_container}>
       <Head>
-        <title>Emmanuel's Blog | {id}</title>
+        <title>Emmanuel&apos;s Blog | {id}</title>
       </Head>
       {
         post.length > 0 || post !== ''

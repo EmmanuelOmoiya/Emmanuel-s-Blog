@@ -118,7 +118,7 @@ const Write = () => {
     return (
         <>
             <Head>
-                <title>Emmanuel's Blog | Write</title>
+                <title>Emmanuel&apos;s Blog | Write</title>
             </Head>  
             <div className="write">
                 <form onSubmit={()=>(!content ? alert('All fields are required') : handlePost )} className={styles.form}>

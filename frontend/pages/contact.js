@@ -9,7 +9,7 @@ const Contact = () => {
     return ( 
         <>
             <Head>
-                <title>Emmanuel's Blog | Contact</title>
+                <title>Emmanuel&apos;s Blog | Contact</title>
             </Head> 
             <div className={styles.contact_container}>
                 <p className={styles.topic_s}>Contact Me On</p>

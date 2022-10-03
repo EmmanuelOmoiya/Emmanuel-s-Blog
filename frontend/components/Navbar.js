@@ -28,9 +28,9 @@ const Navbar = () => {
                 <li className="links" onClick={toggle}><Link href='/contact'><a>Contact</a></Link></li>
             </ul>
             <div className={show ? 'hamburger drop' : 'hamburger'} onClick={toggle}>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
             </div>
         </nav>
         </>

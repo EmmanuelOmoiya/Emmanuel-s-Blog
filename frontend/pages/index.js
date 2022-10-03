@@ -17,12 +17,12 @@ const Home = ({posts}) => {
   return (
     <>
     <Head>
-        <title>Emmauel's Blog | Home</title>
+        <title>Emmauel&apos;s Blog | Home</title>
         <meta name="keywords" content="Blog" />
       </Head>
     <div className={styles.container}>
       <div className={styles.pick}>
-        <h1 className={styles.tpc}>Welcome to Emmanuel's Blog</h1>
+        <h1 className={styles.tpc}>Welcome to Emmanuel&apos;s Blog</h1>
       </div>
     </div>
     <div className={styles.posts}>
@@ -32,7 +32,7 @@ const Home = ({posts}) => {
         ) : 
           <>
           {posts.map((post, i) => (
-            <Link href={`/post/${post.id}`}>
+            <Link href={`/post/${post.id}`} key={i}>
             <div className={styles.post} key={i}>
               <h2 className={styles.title}>{post.title}</h2>
               <p className={styles.author}>Posted by <span className={styles.author_cli}>{post.author}</span> on the {post.date}rd of {post.month} {post.year} at <span className={styles.author_cli}>{post.time}</span></p>
