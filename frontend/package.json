@@ -2,7 +2,7 @@
   "name": "emmanuels-blog",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5080",
+  "proxy": "https://emmanuel-s-blog-api.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
