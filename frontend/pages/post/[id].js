@@ -18,7 +18,7 @@ const Post = () => {
   const { id } = router.query;
   const [post, setPost] = useState('');
   useEffect(async()=>{
-    const res = await axios.get(`http://localhost:5080/api/posts/${id}`);
+    const res = await axios.get(`https://emmanuel-s-blog-api.vercel.app/api/posts/${id}`);
     console.log(res.data)
     setPost(res.data)
   }, [id])
