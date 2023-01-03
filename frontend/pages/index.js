@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import axios from 'axios'
 
 export const getStaticProps = async () => {
-  const res = await axios.get("http://localhost:5080/api/posts");
+  const res = await axios.get("https://emmanuel-s-blog-api.vercel.app/api/posts");
  
   return !res ? {notFound : true} : {    props: { posts: res.data },
   revalidate: 10,
