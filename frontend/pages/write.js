@@ -96,7 +96,7 @@ const Write = () => {
         // save the post
         try{
         setDisable(true);
-        axios.post('http://localhost:5080/api/posts', post,{
+        axios.post('https://emmanuel-s-blog-api.vercel.app/api/posts', post,{
             header:{ 'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8;application/json' }
         })
             .then((res)=>{
