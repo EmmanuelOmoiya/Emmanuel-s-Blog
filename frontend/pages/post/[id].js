@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import styles from '../../styles/Write.module.css'
 import style from '../../styles/post.module.css';
-import { useEffect, useState } from "react";4
+import { useEffect, useState } from "react";
 import axios from 'axios';
 // const router = useRouter();
 
